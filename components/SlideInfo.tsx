@@ -16,7 +16,7 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
       <OtherInfo
         data={transitionData ? transitionData : currentSlideData.data}
       />
-      <motion.div layout className=" mt-5 flex items-center gap-3">
+      {/* <motion.div layout className=" mt-5 flex items-center gap-3">
         <button
           className="flex h-[41px] w-[41px] items-center justify-center rounded-full bg-yellow-500 text-xs  transition 
             duration-300 ease-in-out hover:opacity-80 "
@@ -29,7 +29,7 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
         >
           DISCOVER LOCATION
         </button>
-      </motion.div>
+      </motion.div> */}
     </>
   );
 }

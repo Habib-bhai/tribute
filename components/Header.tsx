@@ -10,12 +10,12 @@ function Header() {
       <Head>
         <title>Cool Project</title>
       </Head>
-      <div className="  flex items-center gap-2 font-medium tracking-[4px]">
+      {/* <div className="  flex items-center gap-2 font-medium tracking-[4px]">
         <IoIosGlobe className=" text-xl" />
         Trust me
-      </div>
+      </div> */}
       <ul className=" flex flex-wrap items-center gap-3 text-[11px] md:gap-10">
-        {menus.map((menu, index) => {
+        {/* {menus.map((menu, index) => {
           return (
             <motion.li
               layout
@@ -27,7 +27,7 @@ function Header() {
               {menu}
             </motion.li>
           );
-        })}
+        })} */}
         <div className=" flex items-center gap-6">
           <IoMdSearch className=" text-lg" />
           <IoMdPerson className=" text-lg" />
